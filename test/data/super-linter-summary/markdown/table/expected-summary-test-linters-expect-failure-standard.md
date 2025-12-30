@@ -97,10 +97,11 @@
 | TERRAFORM_FMT                | Fail ❌           |
 | TERRAFORM_TFLINT             | Fail ❌           |
 | TERRAGRUNT                   | Fail ❌           |
-| TRIVY                        | Fail ❌           |
-| TSX                          | Fail ❌           |
-| TYPESCRIPT_ES                | Fail ❌           |
-| TYPESCRIPT_PRETTIER          | Fail ❌           |
+| TRIVY                      | Fail ❌          |
+| TSX                        | Fail ❌          |
+| TWIGCS                     | Fail ❌          |
+| TYPESCRIPT_ES              | Fail ❌          |
+| TYPESCRIPT_PRETTIER        | Fail ❌          |
 | VUE                          | Fail ❌           |
 | VUE_PRETTIER                 | Fail ❌           |
 | XML                          | Fail ❌           |

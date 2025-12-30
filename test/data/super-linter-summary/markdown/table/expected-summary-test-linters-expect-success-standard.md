@@ -97,10 +97,11 @@
 | TERRAFORM_FMT                | Pass ✅           |
 | TERRAFORM_TFLINT             | Pass ✅           |
 | TERRAGRUNT                   | Pass ✅           |
-| TRIVY                        | Pass ✅           |
-| TSX                          | Pass ✅           |
-| TYPESCRIPT_ES                | Pass ✅           |
-| TYPESCRIPT_PRETTIER          | Pass ✅           |
+| TRIVY                      | Pass ✅           |
+| TSX                        | Pass ✅           |
+| TWIGCS                     | Pass ✅           |
+| TYPESCRIPT_ES              | Pass ✅           |
+| TYPESCRIPT_PRETTIER        | Pass ✅           |
 | VUE                          | Pass ✅           |
 | VUE_PRETTIER                 | Pass ✅           |
 | XML                          | Pass ✅           |
