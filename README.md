@@ -123,6 +123,7 @@ Super-linter supports the following tools:
 | **Terraform**                         | [tflint](https://github.com/terraform-linters/tflint), [Checkov](https://www.checkov.io/), [Trivy](https://trivy.dev/)                                                                                                    | [terraform fmt](https://developer.hashicorp.com/terraform/cli/commands/fmt)                                        |
 | **Terragrunt**                        | [terragrunt](https://github.com/gruntwork-io/terragrunt)                                                                                                                                                                  | N/A                                                                                                                |
 | **TypeScript**                        | [ESLint](https://eslint.org/), [Biome](https://biomejs.dev/)                                                                                                                                                              | [Prettier](https://prettier.io/), [Biome](https://biomejs.dev/)                                                    |
+| **Twig**                              | [Twig CS Fixer](https://github.com/VincentLanglet/Twig-CS-Fixer)                                                                                                                     | [Twig CS Fixer](https://github.com/VincentLanglet/Twig-CS-Fixer)                                                   |
 | **Vue**                               | [eslint-plugin-vue](https://eslint.vuejs.org/), [Biome](https://biomejs.dev/)                                                                                                                                             | [Prettier](https://prettier.io/), [Biome](https://biomejs.dev/)                                                    |
 | **Vulnerabilities**                   | [Trivy](https://trivy.dev/)                                                                                                                                                                                               | N/A                                                                                                                |
 | **XML**                               | [LibXML](http://xmlsoft.org/)                                                                                                                                                                                             |                                                                                                                    |
@@ -572,8 +573,7 @@ Super-linter workflows.
 #### GitHub Actions workflow example: push and pull request
 
 The following example shows a GitHub Actions workflow that uses Super-linter to
-automatically fix linting and formatting issues, commit changes in the current
-branch, and push commits to the remote branch tracking the current branch
+automatically fix linting and formatting issues, commit changes in the current branch, and push commits to the remote branch tracking the current branch
 whenever a you push commits on any branch, or when you create or update a pull
 request:
 
